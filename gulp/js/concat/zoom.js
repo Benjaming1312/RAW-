@@ -1,13 +1,3 @@
-$(function () {
-  $('.product-photo').each(function () {
-    aToImg($(this))
-    zoomInApend($(this))
-    $(this).on('mouseover', function () {
-      hoverZoom($(this))
-    })
-  })
-})
-
 // 把分類頁的元素a的background複製，並且產出img並且append進去
 function aToImg(target) {
   var aBackground = target.attr('style').split("url('")[1].split("');")[0]
