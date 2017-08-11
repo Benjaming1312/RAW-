@@ -1,32 +1,46 @@
-doctype html
-html(lang="zh-Hant")
-  head
-    title PugToVue
-    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.css")
-    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js")
-    script(type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.js")
-    script(src="")
-  body
-    nav(class="navbar navbar-toggleable-md navbar-light bg-faded")
-      button(class="navbar-toggler navbar-toggler-right")
-        span(class="navbar-toggler-icon")
-      a(class="navbar-brand" href="#") Navbar
-      div(class="collapse navbar-collapse" id="navbarSupportedContent")
-        ul(class="navbar-nav mr-auto")
-        li.nav-item
-          a.nav-link(href="#") Home
-        li.nav-item
-          a.nav-link(href="#") Home
-        li.nav-item
-          a.nav-link(href="#") Home
-    block content
-      .slidebar
-        block sidebar
-          ul
-            li 1
-            li 2
-            li 3
-            li 4
-      .primart
-        block primary
-    script(src="dist/build.js")
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge")
+  title Document
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  script(src="dist/js/userjs.js")
+body
+  .min
+    img(src="http://raw0120.rawuser.com/img/Drawer-Storage-Trolley.jpg", alt="")
+    .fd
+  .max
+    img(src="http://raw0120.rawuser.com/img/Drawer-Storage-Trolley.jpg", alt="")
+  
+  style.
+    .min{
+      width: auto;
+      height: auto;
+      border: 1px solid black;
+      float: left;
+      position: relative;
+    }
+    .max{
+      width: 350px;
+      height: 350px;
+      border: 1px solid black;
+      float: left;
+      display: none;
+      overflow: hidden;
+      position: relative;
+    }
+    .max img{
+      position: absolute;
+      margin: 0 auto;
+    }
+    .fd{
+      width: 153.125px;
+      height: 153.125px;
+      background-color: skyblue;    
+      opacity: 0.3;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
