@@ -6,7 +6,8 @@
 
 ``` bash
 # 放在自訂CSS
-
+<link rel="stylesheet" href="https://cdn.rawgit.com/Benjaming1312/RAW-/master/zoom.css">
+<script src="https://cdn.rawgit.com/Benjaming1312/RAW-/master/raw-zoom.js"></script>
 
 ```
 
